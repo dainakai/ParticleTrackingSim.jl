@@ -1,0 +1,25 @@
+# Julia Project specific
+Manifest.toml
+*.log
+*.csv
+*.tsv
+*.dat
+*.out
+
+# Build artifacts
+build/
+*.tar.gz
+*.zip
+
+# Data files (adjust if needed)
+data/
+
+# Environment specific
+.DS_Store
+
+# Temporary files
+*.stacktrace
+
+# Coverage reports
+lcov.info
+*.cov 
