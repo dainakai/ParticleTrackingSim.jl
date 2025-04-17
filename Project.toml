@@ -1,0 +1,9 @@
+name = "ParticleTrackingSim"
+uuid = "2f0095eb-734c-4489-8f34-7b126f77cb62"  # UUIDを更新
+authors = ["dainakai <dai.nakai@proton.me>"]
+version = "0.1.0"
+
+[deps]
+
+[compat]
+julia = "1"
