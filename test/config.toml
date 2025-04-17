@@ -1,0 +1,31 @@
+[environment]
+Lx = 2.0
+Ly = 2.0
+Lz = 2.0
+Tmax = 5.0
+dt = 0.005
+g = [0.0, 0.0, -9.81]
+rho_f = 1.2
+mu_f = 1.8e-5
+random_seed = 42
+
+[flow]
+type = "simple_shear"
+shear_rate = 10.0
+
+[particle]
+Np = 500
+rho_p = 1500.0
+size_distribution_type = "lognormal"
+size_distribution_params = { mean_dp = 5e-5, std_dev_log_dp = 0.2 }
+
+[dynamics]
+inertia_spec = "tau_p"
+tau_p = 0.05
+interpolation_method = "linear"
+integration_method = "euler_maruyama"
+
+[output]
+output_dir = "test_output"
+filename_prefix = "test_snap"
+snapshot_interval = 50 
