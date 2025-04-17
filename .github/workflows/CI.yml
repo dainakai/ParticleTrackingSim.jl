@@ -13,7 +13,5 @@ jobs:
         with:
           version: '1' # Use the latest stable Julia version
       - uses: julia-actions/cache@v2 # Cache dependencies
-      - name: Instantiate project
-        run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
-      - name: Run tests
-        run: julia --project=. -e 'using Pkg; Pkg.test()' 
+      - name: run tests
+        run: julia --project=. -e 'using Pkg; Pkg.instantiate(); Pkg.test()'
