@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+
+- You can @ files here
+- You can use markdown but dont have to
+- タスクに取り組むときは、 [rdd.md](mdc:docs/rdd.md) [tasks.md](mdc:docs/tasks.md) をよく読んで取り組んでください。また、これまでに解決されたIssueやPRをよく参照して現在の作業の立ち位置をよく確認してください。
